@@ -1,32 +1,28 @@
 import React from 'react';
-import {View, StyleSheet, Text} from 'react-native';
+import {View, StyleSheet, Text, StatusBar} from 'react-native';
 
 export default () => {
-    return(
-        <View style={style.container}>
-            <Text style={style.text}>Cadastro Pessoal</Text>
-        </View>
-    );
-}
+  return (
+    <View style={style.container}>
+      <StatusBar backgroundColor="#01E2C4" barStyle="light-content" />
+      <Text style={style.text}>Cadastro Pessoal</Text>
+    </View>
+  );
+};
 
 const style = StyleSheet.create({
-    container:{
-        flex:2,
-        flexDirection:'row',
-        justifyContent:'center',
-        alignItems: 'center',
-        width: 400,
-        height: 50,
-        backgroundColor: '#00C5B5',
-        shadowColor: '#000000',
-        elevation: 10,
-       borderBottomWidth: 0.2,
+  container: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
 
-    },
-    text:{
-        fontSize: 20,
-        fontWeight:'bold',
-        color: '#FFFFFF'
-    }
-
+    height: 50,
+    backgroundColor: '#01E2C4',
+    textAlign: 'center',
+  },
+  text: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#FFFFFF',
+  },
 });

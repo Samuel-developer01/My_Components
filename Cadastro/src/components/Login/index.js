@@ -1,11 +1,10 @@
 import React from 'react';
-import {View} from 'react-native';
 import styled from 'styled-components';
 
 export default () =>{
     return(
         <Container>
-            <Login placeholder="E-mail"></Login>
+            <Login placeholder="E-mail" ></Login>
         </Container>
     );
 }
@@ -22,5 +21,5 @@ border-bottom-color: #555555
 
 const Container = styled.View`
   padding: 5px;
-  margin-top: 1px  
+  margin-top: 12px  
 `;

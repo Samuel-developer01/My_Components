@@ -1,5 +1,4 @@
 import React from 'react';
-import {View} from 'react-native';
 import styled from 'styled-components';
 
 export default () =>{
@@ -22,5 +21,5 @@ border-bottom-color: #555555
 
 const Container = styled.View`
   padding: 5px;
-  margin-top: 1px  
+  margin-top: 12px  
 `;

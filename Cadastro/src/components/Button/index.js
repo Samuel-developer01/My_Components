@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, TouchableOpacity, StyleSheet, Text} from 'react-native';
-import styled from 'styled-components';
+
+
 
 export default () => {
   function alerta() {
@@ -19,13 +20,14 @@ export default () => {
 const style = StyleSheet.create({
   viewBtn: {
     padding: 5,
+    marginTop: 12
   },
   btn: {
     width: 280,
-    height: 48,
-    backgroundColor: '#00C5B5',
-    marginTop: 15,
-    borderRadius: 3,
+    height: 60,
+    backgroundColor: '#01E2C4',
+    marginTop: 18,
+    borderRadius: 5,
     justifyContent: 'center',
     alignItems: 'center',
   },
